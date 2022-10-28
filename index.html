@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etude</title>
+
+    <!-- font-family: 'Noto Sans KR', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f506734a62.js"></script>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JavaScript -->
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-lg px-3 px-sm-5 px-lg-0 position-relative align-items-end">
+          <a class="navbar-brand col-3 col-lg-2" href="index.html">
+            <img class="navbar-logo" src="img/logo.png" alt="Bootstrap" width="108" height="45" />
+          </a>
+          <div class="collapse navbar-collapse col-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-0 fw-bold" href="#">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 fw-bold" href="#">BRAND</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 fw-bold" href="#">LIMITED</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 fw-bold" href="#">STORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 fw-bold" href="#">EVENT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-btn-group d-flex">
+            <button class="navbar-search">
+              <img src="img/header/search_icon.svg" alt="검색하기" width="29" />
+              <span class="d-none">검색</span>
+            </button>
+            <button class="navbar-shopping d-none d-lg-block">
+              <img src="img/header/shopping_icon.png" alt="장바구니" />
+              <span class="d-none">장바구니</span>
+            </button>
+            <button
+              class="navbar-toggler position-relative bg-transparent p-0 border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="position-absolute">메뉴</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- home -->
+      <section id="home" class="position-relative">
+        <div class="home_title move_text position-absolute w-100 text-center">
+          <p>
+            Play with<br class="d-md-none" />
+            <span>ETUDE</span><br />
+            in your<br class="d-md-none" />
+            beauty life
+          </p>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner mx-auto">
+            <div class="carousel-item active">
+              <img src="img/home/home1.jpg" class="d-block w-100 h-100" alt="타이틀 이미지1" />
+            </div>
+            <div class="carousel-item">
+              <img src="img/home/home2.jpg" class="d-block w-100 h-100" alt="타이틀 이미지2" />
+            </div>
+            <div class="carousel-item">
+              <img src="img/home/home3.jpg" class="d-block w-100 h-100" alt="타이틀 이미지3" />
+            </div>
+          </div>
+        </div>
+        <div class="factory_widget position-fixed d-none d-lg-block fw-bold p-3">FOUNDATION FACTORY</div>
+      </section>
+
+      <!-- play -->
+      <section id="play" class="overflow-hidden">
+        <div class="play_photo px-lg-5 d-flex justify-content-center flex-wrap m-auto">
+          <img src="img/play/change_photo.gif" alt="change image" />
+          <img src="img/play/play1.png" alt="Play with ETUDE in your beauty life" />
+          <img src="img/play/play2.jpg" alt="그림자 쉐딩 제품 사진1" />
+          <img src="img/play/play3.jpg" alt="그림자 쉐딩 제품 사진2" />
+        </div>
+        <div class="play_etude move_text my-5">Play with ETUDE in your beauty life</div>
+      </section>
+
+      <!-- about -->
+      <section id="about">
+        <div class="about_brand d-flex flex-column justify-content-evenly text-center px-5">
+          <div class="about_brand_title">
+            <div class="about_brand_text">
+              <span class="fw-light">Lovely</span>
+              <p>개성 넘치는 사랑스러움</p>
+            </div>
+            <div class="about_brand_text">
+              <span class="fw-light">Trendy</span>
+              <p>남들과는 다른 매력이 가득하게</p>
+            </div>
+            <div class="about_brand_text">
+              <span class="fw-light">Playful</span>
+              <p>일상에 즐거움을 선사해줄</p>
+            </div>
+          </div>
+          <div class="about_brand_we">
+            <img src="img/about/about_we.png" alt="WE, ETUDE" />
+            <img src="img/about/about_heart.gif" alt="move heart image" />
+            <p>기분 좋아지는 핑크빛 감성, 에뛰드와 함께</p>
+          </div>
+        </div>
+        <div class="about_history container-lg p-5">
+          <div class="about_history_title text-center text-lg-start">
+            <h2>Since 1985</h2>
+            <p>
+              1985년 12월 창립에서 시작된<br />
+              오랫동안 많은 분들의 사랑과 인정을 받아온 에뛰드 스테디셀러
+            </p>
+          </div>
+          <div class="about_history_photo">
+            <img src="img/about/about_history.jpg" alt="Etude History" />
+          </div>
+        </div>
+        <div class="about_product container-lg py-5">
+          <div class="about_product_title text-center text-lg-start mb-5">
+            <h2>Loved Products</h2>
+            <p>
+              자타공인, 역대 가장 많은 사랑을 받은,<br />
+              고민과 검증 끝에 출시된 제품을 만나보세요!
+            </p>
+          </div>
+          <div class="about_product_cards d-flex flex-wrap justify-content-center">
+            <div class="card border-0 p-0 bg-transparent">
+              <img src="img/about/about_product1.jpg" alt="픽싱 틴트" />
+              <div class="card-body">
+                <h3 class="d-inline-block me-2 mb-0">Fixing Tint</h3>
+                <span>픽싱 틴트</span>
+                <hr />
+                <p class="card-text">네이버 뷰티 윈도우 메이크업 <strong>10주 연속 1위</strong></p>
+                <p class="card-text">2021년 글로우픽 어워드 <strong>위너</strong> 틴트 부문</p>
+                <p class="card-text">#안묻픽싱 #안묻틴트</p>
+              </div>
+            </div>
+            <div class="card border-0 p-0 bg-transparent">
+              <img src="img/about/about_product2.jpg" alt="컬 픽스 마스카라" />
+              <div class="card-body">
+                <h3 class="d-inline-block me-2 mb-0">Curl Fix Mascara</h3>
+                <span>컬 픽스 마스카라</span>
+                <hr />
+                <p class="card-text">글로우픽 <strong>10주 연속 1위</strong> 컬링 마스카라 부문</p>
+                <p class="card-text">컬링 마스카라 <strong>5년 연속 1위</strong></p>
+                <p class="card-text">국민BM 400명 검증 완료</p>
+              </div>
+            </div>
+            <div class="card border-0 p-0 bg-transparent">
+              <img src="img/about/about_product3.jpg" alt="수분 가득 콜라겐" />
+              <div class="card-body">
+                <h3 class="d-inline-block me-2 mb-0">Moistful Collagen</h3>
+                <span>수분가득 콜라겐</span>
+                <hr />
+                <p class="card-text">찐후기가 말해주는 <strong>믿고 쓰는 수분 크림</strong></p>
+                <p class="card-text">수분감 만족도 <strong>98%</strong></p>
+                <p class="card-text">보습력 만족도 <strong>97%</strong></p>
+              </div>
+            </div>
+            <div class="card border-0 p-0 bg-transparent">
+              <img src="img/about/about_product4.jpg" alt="디어 달링 틴트" />
+              <div class="card-body">
+                <h3 class="d-inline-block me-2 mb-0">Dear Darling Tint</h3>
+                <span>디어 달링 틴트</span>
+                <hr />
+                <p class="card-text">오랜 시간 사랑받아온 <strong>#장수템 #애정템</strong></p>
+                <p class="card-text">촉촉하고 선명하게 물드는 <strong>#워터젤 틴트</strong></p>
+                <p class="card-text">2017년 아이스크림 틴트 <strong>#대란템</strong></p>
+              </div>
+            </div>
+            <div class="card border-0 p-0 bg-transparent">
+              <img src="img/about/about_product5.jpg" alt="룩 앳 마이 아이즈" />
+              <div class="card-body">
+                <h3 class="d-inline-block me-2 mb-0">Look At My Eyes</h3>
+                <span>룩 앳 마이 아이즈</span>
+                <hr />
+                <p class="card-text">색조계의 강자 <strong>#선명한 발색 #우수한 밀착력</strong></p>
+                <p class="card-text">#시.빼.테를 안다면 당신은 에뛰드 덕후</p>
+                <p class="card-text">베이스부터 그라데이션까지 <strong>#다양한 컬러</strong></p>
+              </div>
+            </div>
+            <div class="card border-0 p-0 bg-transparent">
+              <img src="img/about/about_product6.jpg" alt="순정" />
+              <div class="card-body">
+                <h3 class="d-inline-block me-2 mb-0">Soon Jung</h3>
+                <span>순정</span>
+                <hr />
+                <p class="card-text">30년간 이어진 <strong>민감 피부 연구의 노하우</strong></p>
+                <p class="card-text">순하게 진정 <strong>#저자극 진정 피부 솔루션</strong></p>
+                <p class="card-text">#산뜻한 마무리 #민감러 PICK!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- daily -->
+      <section id="daily">
+        <div class="container p-0">
+          <div class="daily_shadow row w-100 m-0 text-center">
+            <img src="img/daily/shadow1.jpg" alt="아이 섀도우 제품 사진1" class="col-6 p-0" />
+            <img src="img/daily/shadow2.jpg" alt="아이 섀도우 제품 사진2" class="col-6 p-0" />
+          </div>
+          <div class="daily_list container-fluid row text-center py-5 m-0">
+            <h2 class="text-center my-5">Daily Item</h2>
+            <div class="daily_item col-auto col-sm-6 col-lg-3">
+              <img src="img/daily/daily1.png" alt="픽싱 틴트" />
+              <p>
+                <span>플레이 톤 아이 팔레트</span>
+                <br />30,000원
+              </p>
+            </div>
+            <div class="daily_item col-auto col-sm-6 col-lg-3">
+              <img src="img/daily/daily2.png" alt="플레이 톤 아이 팔레트" />
+              <p>
+                <span>더블 래스팅 비건 커버 파운데이션</span>
+                <br />29,000원
+              </p>
+            </div>
+            <div class="daily_item col-auto col-sm-6 col-lg-3">
+              <img src="img/daily/daily3.png" alt="더블 래스팅 비건 커버 파운데이션" />
+              <p>
+                <span>그림자 쉐딩</span>
+                <br />20,000원
+              </p>
+            </div>
+            <div class="daily_item col-auto col-sm-6 col-lg-3">
+              <img src="img/daily/daily4.png" alt="컬 픽스 마스카라션" />
+              <p>
+                <span>컬 픽스 마스카라</span>
+                <br />15,000원
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- makeup -->
+      <section id="makeup">
+        <div class="makeup_title text-center">
+          <h2 class="position-relative">Makeup Look</h2>
+          <p>지금 나에게 어울리는 메이크업 룩은?</p>
+          <button class="d-block mx-auto mb-5">View More</button>
+          <img src="img/makeup/makeup_profile.jpg" alt="모델 사진" class="rounded" />
+          <h3 class="makeup_presso move_text">MILKY PRESSO</h3>
+        </div>
+        <div class="makeup_list row justify-content-center text-center m-0 p-3 p-md-0">
+          <div class="makeup_photo col-auto col-lg-5 position-relative overflow-hidden mb-5 mb-lg-0 p-0">
+            <span class="position-absolute fw-bold">EYE</span>
+            <img src="img/makeup/makeup_look1.jpg" alt="아이 섀도우 제품 사진" class="position-relative rounded" />
+            <a href="#">더보기</a>
+          </div>
+          <div class="makeup_photo col-auto col-lg-5 position-relative overflow-hidden p-0">
+            <span class="position-absolute fw-bold">LIP</span>
+            <img src="img/makeup/makeup_look2.jpg" alt="픽싱 틴트 제품 사진" class="position-relative rounded" />
+            <a href="#">더보기</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- pure -->
+      <section id="pure" class="overflow-hidden">
+        <div class="pure_title text-center">
+          <h2 class="position-relative">SOON JUNG</h2>
+          <p>30년 History, 저자극 검증 System</p>
+          <button class="d-block mx-auto mb-5">View More</button>
+        </div>
+        <div class="pure_list row p-0">
+          <div class="pure_photo col-lg">
+            <img src="img/pure/pure_photo.jpg" alt="모델 사진" />
+          </div>
+          <div class="pure_item col-lg d-md-flex flex-wrap p-0">
+            <div class="card mt-5 mt-lg-0">
+              <img src="img/pure/pure1.jpg" class="card-img-top" alt="순정 제품 사진1" />
+              <div class="card-body">
+                <span class="card-text">#비건라이프 #세트</span>
+                <h5 class="card-title">지구의 날 순정 토너 & 5 시카 밤 비건 기획세트</h5>
+                <strong>35,000원</strong>
+              </div>
+            </div>
+            <div class="card mt-5 mt-lg-0">
+              <img src="img/pure/pure2.jpg" class="card-img-top" alt="순정 제품 사진1" />
+              <div class="card-body">
+                <span class="card-text">#비건라이프 #약산성</span>
+                <h5 class="card-title">지구의 날 순정 약산성 6.5 휩 클렌저 350ml</h5>
+                <strong>27,000원</strong>
+              </div>
+            </div>
+            <div class="card mt-5 mt-lg-3">
+              <img src="img/pure/pure3.jpg" class="card-img-top" alt="순정 제품 사진1" />
+              <div class="card-body">
+                <span class="card-text">#수분핏 #자차검증</span>
+                <h5 class="card-title">순정 디렉터 수분 선크림 SPF50+ PA++++ 50ml</h5>
+                <strong>25,000원</strong>
+              </div>
+            </div>
+            <div class="card mt-5 mt-lg-3">
+              <img src="img/pure/pure4.jpg" class="card-img-top" alt="순정 제품 사진1" />
+              <div class="card-body">
+                <span class="card-text">#무기자차 #자차검증</span>
+                <h5 class="card-title">순정 디렉터 무기자차 선크림 SPF50+ PA++++ 50ml</h5>
+                <strong>25,000원</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- gift -->
+      <section id="gift">
+        <div class="gift_title text-center">
+          <h2 class="position-relative">For Gift</h2>
+          <p>무슨 선물할까 고민하지 말고 에뛰드 카카오톡 선물하기로 바로가기</p>
+          <button class="d-block mx-auto mb-5">View More</button>
+        </div>
+        <div class="gift_photo container-fluid">
+          <div class="row">
+            <img src="img/gift/gift1.jpg" alt="선물 제품 사진1" class="col-12 col-md-6 col-lg-3 mt-4" />
+            <img src="img/gift/gift2.jpg" alt="선물 제품 사진2" class="col-12 col-md-6 col-lg-3 mt-4" />
+            <img src="img/gift/gift3.jpg" alt="선물 제품 사진3" class="col-12 col-md-6 col-lg-3 mt-4" />
+            <img src="img/gift/gift4.jpg" alt="선물 제품 사진4" class="col-12 col-md-6 col-lg-3 mt-4" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer_left col-lg">
+            <ul class="notice row">
+              <li class="col">공지사항</li>
+              <li class="col">이용약관</li>
+              <li class="col">전자공고</li>
+              <li class="col">개인정보처리</li>
+            </ul>
+            <div class="info d-flex align-items-center mt-5">
+              <img src="img/logo.png" alt="LOGO" />
+              <address class="d-inline-block mb-0 ms-5">
+                <p class="m-0">(주)에뛰드 대표이사 : 이수연</p>
+                <p class="m-0">개인정보보호책임자 : 송영석</p>
+                <p class="m-0">사업자등록번호 : 135-81-05033</p>
+                <p class="m-0">주소 : 서울특별시 용산구 한강대로 100 (한강로 2가)</p>
+              </address>
+            </div>
+            <p class="rights mb-0 mt-5">© ETUDE CORPORATION. ALL RIGHTS RESERVED.</p>
+          </div>
+          <div class="footer_right col-lg">
+            <div class="contact">
+              <strong>CONTACT</strong>
+              <div class="client mt-4">
+                <p class="m-0">제품 문의 : 080-022-2285</p>
+                <p class="m-0">고객 문의 : 1544-5418</p>
+              </div>
+              <div class="time">
+                <p class="m-0">운영 시간 : 평일 13:00 ~ 17:00 (주말 및 공휴일 휴무)</p>
+                <p class="m-0">점심 시간 : 12:00 ~ 13:00</p>
+              </div>
+              <div class="email">
+                <p class="m-0">대표 이메일 : etude_master@etude.co.kr</p>
+              </div>
+            </div>
+            <ul class="sns row text-lg-center mt-4">
+              <li class="col"><i class="fa-brands fa-instagram"></i></li>
+              <li class="col"><i class="fa-brands fa-facebook"></i></li>
+              <li class="col"><i class="fa-brands fa-youtube"></i></li>
+              <li class="col"><i class="fa-brands fa-tiktok"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
